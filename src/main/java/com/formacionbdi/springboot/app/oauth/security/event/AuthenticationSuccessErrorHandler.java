@@ -10,8 +10,8 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.web.authentication.WebAuthenticationDetails;
 import org.springframework.stereotype.Component;
 
+import com.formacionbdi.springboot.app.commons.models.entity.Usuario;
 import com.formacionbdi.springboot.app.oauth.services.IUsuarioService;
-import com.formacionbdi.springboot.app.commons.usuarios.models.entity.Usuario;
 
 import feign.FeignException;
 

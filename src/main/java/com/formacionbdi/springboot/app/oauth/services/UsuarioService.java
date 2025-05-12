@@ -14,11 +14,10 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
+import com.formacionbdi.springboot.app.commons.models.entity.Usuario;
 import com.formacionbdi.springboot.app.oauth.clients.UsuarioFeignClient;
 
 import feign.FeignException;
-
-import com.formacionbdi.springboot.app.commons.usuarios.models.entity.Usuario;
 
 @Service
 public class UsuarioService implements IUsuarioService, UserDetailsService {

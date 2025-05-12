@@ -10,8 +10,8 @@ import org.springframework.security.oauth2.provider.OAuth2Authentication;
 import org.springframework.security.oauth2.provider.token.TokenEnhancer;
 import org.springframework.stereotype.Component;
 
+import com.formacionbdi.springboot.app.commons.models.entity.Usuario;
 import com.formacionbdi.springboot.app.oauth.services.IUsuarioService;
-import com.formacionbdi.springboot.app.commons.usuarios.models.entity.Usuario;
 
 @Component
 public class InfoAdicionalToken implements TokenEnhancer{
